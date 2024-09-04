@@ -1,7 +1,7 @@
 # Fragrance-Shop-System
 
 ## Overview
-The Fragrance Shop Sales Management System is a comprehensive solution designed to streamline sales tracking, inventory management, and data analysis for a fragrance retail business. This project integrates a user-friendly graphical interface made with **Python** with robust data handling capabilities for data entry, demonstrating proficiency in Python programming, database management **(SQLite)**, and data analysis and visualization using tools like **Excel** and **Power BI**.
+The Fragrance Shop Sales Management System is a comprehensive solution designed to streamline sales tracking, inventory management, and data analysis for a fragrance retail business. This project integrates a user-friendly graphical interface made with **Python** with robust data handling capabilities for data entry, demonstrating proficiency in Python programming, **database management (SQLite)**, and data analysis and visualization using tools like **Excel** and **Power BI**.
 
 
 ## Features
@@ -41,7 +41,8 @@ The Fragrance Shop Sales Management System is a comprehensive solution designed 
 
 ## Skills Demonstrated
 * **Python:**  Developed core functionality using Python, including database interactions, GUI design, and application logic.
-* **Tkinter:** : Designed and implemented a user-friendly interface for ease of use and efficient data entry.
+* **Tkinter:** Designed and implemented a user-friendly interface for ease of use and efficient data entry.
+* **Database Design:** Designed the database tables and relationships for efficient memory use, ensuring high performance and scalability.
 * **SQLite:** Managed data storage and retrieval with **`SQLite`**, handling schema modifications and data updates.
 * **Excel:** Leveraged **`Excel’s Power Pivot`** to create and manage **`Pivot Tables`** and **`Dashboards`** for insightful data visualization.
 * **Power BI:** Created interactive **`Power BI Dashboards`** for comprehensive data analysis and reporting.
