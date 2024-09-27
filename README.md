@@ -37,8 +37,7 @@
 ## Workflow
 #### 1) Data Entry:
   
-* **Sales Recording:** User can input customer and select fragrances using the Tkinter-based GUI. Each sale is recorded with relevant details including the customer ID, fragrance ID, and sale date.
-  
+* **Sales Recording:** User can input customer and select fragrances using the Tkinter-based GUI. Each sale is recorded with relevant details including the customer ID, fragrance ID, and sale date. 
 * **Adding Customers:** User can add new customers specifying their names, ages, and mobile phones.
 
 
@@ -67,18 +66,17 @@
   * Excel (for Power Pivot features)
   * Power BI (for interactive dashboards)
     
-1. Clone the Repository
+**1. Clone the Repository**
 To use the program, first clone the repository to your local machine:
-
 `git clone https://github.com/Khalil-Zakout/Fragrance-Shop-System.git`
 
-2. Install Dependencies
+**2. Install Dependencies**
 Next, install the required dependencies using pip:
 `pip install tkinter sqlite3`
 
-3. Run the Application
+**3. Run the Application**
 
-4. Using the System
+**4. Using the System**
 * **Add a Customer:**
 Launch the system and navigate to the Add Customer tab.
 Input the customer’s details (name, age, mobile phone).
@@ -87,9 +85,9 @@ Click Submit to save the customer details to the database.
 * **Record a Sale:** Navigate to the Sales section in the GUI. Select an existing customer and fragrance from the dropdown.
   Click Submit to record the sale and automatically update the stock.
 
-5. **Excel Dashboard:** The dashboard will automatically be updated as it is linked to the database.
+**5. Excel Dashboard:** The dashboard will automatically be updated as it is linked to the database.
 
-6. **Power BI Dashboard:**: The dashboard will automatically be updated as it is linked to the database.
+**6. Power BI Dashboard:**: The dashboard will automatically be updated as it is linked to the database.
 
 
 ## Contact
