@@ -63,6 +63,7 @@
 - Prerequisites: Ensure you have the following installed:
   * Python 3.x
   * Required Python libraries (Tkinter, SQLite3)
+  * ODBC (Open DataBase Connectivity) for SQLite ([Download ODBC SQLite](http://www.ch-werner.de/sqliteodbc/)) 
   * Excel (for Power Pivot features)
   * Power BI (for interactive dashboards)
     
@@ -85,10 +86,22 @@ Click Submit to save the customer details to the database.
 * **Record a Sale:** Navigate to the Sales section in the GUI. Select an existing customer and fragrance from the dropdown.
   Click Submit to record the sale and automatically update the stock.
 
-**5. Excel Dashboard:** The dashboard will automatically be updated as it is linked to the database.
+**5. Excel Dashboard:** 
+- Open ODBC Administrator.
+- Go **User DSN** and press **Add**.
+- Choose **SQLite3 ODBC Driver** and press **Finish**.
+- Choose a Name for the data source and define where your data source is and press **OK**.
+- Open Excel Dashboard and go to **Data** and press **Get Data** then **From Other Sources** Then **From ODBC**.
+- Choose the one you have created in the ODBC and press **OK**.
+- Choose **Default or Custome** and press **Connect**.
+- The dashboard now will automatically be updated as it is linked to the database.
+- **NOTE**: if you have any problem updating data, press **Refresh All** from **Data**.
 
-**6. Power BI Dashboard:**: The dashboard will automatically be updated as it is linked to the database.
-
+**6. Power BI Dashboard:**
+- Open PowerBI and go to **Home** and press **Get Data** then choose **ODBC**
+- Choose the same one you have created in the ODBC in the previous step and press **Connect**
+- The dashboard now will automatically be updated as it is linked to the database.
+- **NOTE**: if you have any problem updating data, press **Refresh** from **Home**.
 
 ## Contact
 For any inquiries or feedback, please reach out to zakoutkhalil@gmail.com
