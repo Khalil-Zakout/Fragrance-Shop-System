@@ -25,12 +25,11 @@
   
 **4) Excel Integration:** Connects with **`Excel Power Pivot`** for advanced data analysis, including creating **`Dynamic Pivot Tables`** and **`Dashboards`**.
   
-  ![Tkinter GUI](Screenshots/Excel_Dashboard_1.png) ![Tkinter GUI](Screenshots/Excel_Dashboard_2.png)
-
+  ![Excel Dashboard](Screenshots/Excel_1.png)  ![Excel Dashboard](Screenshots/Excel_2.png)  ![Excel Dashboard](Screenshots/Excel_3.png)  ![Excel Dashboard](Screenshots/Excel_4.png)
   
 **5) Power BI Integration:** Generates interactive dashboards in **`Power BI`** to visualize sales trends and business insights.
   
-  ![Tkinter GUI](Screenshots/PowerBI_Dashboard.png)
+  ![PowerBI Dashboards](Screenshots/PowerBI_Dashboard.png)
 
 **6) Data Analysis:** Implements **`DAX`** measures and **`SQL`** queries to analyze sales data, identifying top and least-selling fragrances.
 
