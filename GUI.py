@@ -8,8 +8,6 @@ from datetime import datetime
 conn = sqlite3.connect('FragranceShop.db')
 cursor = conn.cursor()
 
-
-
 def show_frame(frame):
     frame.tkraise()
 
@@ -20,7 +18,8 @@ def submit_customer():
     age = customer_age_entry.get()
     customer_id = str(uuid.uuid4())
 
-    cursor.execute("INSERT INTO Customers (CustomerID, CustomerName, MobileNumber, Age) VALUES (?, ?, ?, ?)", (customer_id, name, mobile, age))
+    cursor.execute("INSERT INTO Customers (CustomerID, CustomerName, MobileNumber, Age) VALUES (?, ?, ?, ?)"
+                   ,(customer_id, name, mobile, age))
     conn.commit()
 
     names.append(name)
@@ -30,7 +29,6 @@ def submit_customer():
     customer_name_entry.delete(0, tk.END)
     customer_mobile_entry.delete(0, tk.END)
     customer_age_entry.delete(0, tk.END)
-
 
     tk.messagebox.showinfo("Success","Customer Added Successfully!")
     show_frame(main_page)
@@ -57,7 +55,6 @@ def update_combobox(event, combobox, values):
 
 
 def submit_purchase():
-
     selected_customer_name = customer_name.get()
     selected_fragrance = fragrance_choice.get()
 
@@ -98,9 +95,8 @@ def submit_purchase():
 
     # Insert into Sales table
     cursor.execute("""
-        INSERT INTO Sales (SaleID, CustomerID, FragranceID, SaleDate)
-        VALUES (?, ?, ?, ?)
-    """,(sale_id, customer_id, fragrance_id, sale_date))
+        INSERT INTO Sales (SaleID, CustomerID, FragranceID, SaleDate)VALUES (?, ?, ?, ?)"""
+                   ,(sale_id, customer_id, fragrance_id, sale_date))
 
 
     # Update Stock
@@ -193,5 +189,4 @@ customer_page.columnconfigure(1, weight=1)
 
 # Show the main page initially
 show_frame(main_page)
-
 root.mainloop()
