@@ -1,11 +1,7 @@
 # Fragrance-Shop-System
 
 ## Overview
-* **Fragrance Shop Sales Management System** is an all-in-one solution tailored for fragrance retail businesses, aimed at simplifying sales tracking, inventory management, and data analysis. With an intuitive **`Python`**-based **GUI**, built with a focus on usability and efficiency.
-
-* The system leverages **`SQLite`** for data storage, and integrates seamlessly with **`Excel`** and **`Power BI`** to provide powerful visual reporting and analytics.
-
-* This project showcases skills in data analytics, helping business owners make informed decisions to boost sales and optimize operations.
+* **Fragrance Shop Sales Management System** is an all-in-one solution tailored for fragrance retail businesses, aimed at simplifying sales tracking, inventory management, and data analysis. With an intuitive **`Python`**-based **GUI**, built with a focus on usability and efficiency. It also leverages **`SQLite`** for data storage, and integrates seamlessly with **`Excel`** and **`Power BI`** to provide powerful visual reporting and analytics. This project showcases skills in data analytics, helping business owners make informed decisions to boost sales and optimize operations.
 
 * The system makes it easy to:
     
@@ -23,13 +19,13 @@
 
 
 ## Skills Demonstrated
-* **`Python`**:  Developed core functionality using Python, including database interactions, **`GUI`** design, and application logic.
-* **`Tkinter`**: Designed and implemented a user-friendly interface for ease of use and efficient data entry.
-* **`Database Design`**: Designed the database tables and relationships for efficient memory use, ensuring high performance and scalability.
-* **`SQLite`**: Managed data storage and retrieval with **`SQLite`**, handling schema modifications and data updates.
-* **`Excel`**: Leveraged Excel’s **`Power Pivot`** to create and manage **`Pivot Tables`** and **`Dashboards`** for insightful data visualization.
-* **`Power BI`**: Created interactive **`Power BI Dashboards`** for comprehensive data analysis and reporting.
-* **`Data Analysis`**: Utilized **`SQL`** and **`DAX`** for advanced data querying and measures to extract meaningful business insights.
+* **Python**:  Developed core functionality using Python, including database interactions, **`GUI`** design, and application logic.
+* **Tkinter**: Designed and implemented a user-friendly interface for ease of use and efficient data entry.
+* **Database Design**: Designed the database tables and relationships for efficient memory use, ensuring high performance and scalability.
+* **SQLite**: Managed data storage and retrieval with **`SQLite`**, handling schema modifications and data updates.
+* **Excel**: Leveraged Excel’s **`Power Pivot`** to create and manage **`Pivot Tables`** and **`Dashboards`** for insightful data visualization.
+* **Power BI**: Created interactive **`Power BI Dashboards`** for comprehensive data analysis and reporting.
+* **Data Analysis**: Utilized **`SQL`** and **`DAX`** for advanced data querying and measures to extract meaningful business insights.
 
 
 ## Features
