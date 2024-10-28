@@ -117,5 +117,5 @@ Click Submit to save the customer details to the database.
 - **NOTE**: if you have any problem updating data, press **Refresh** from **Home**.
 
 ## Contact
-For any inquiries or feedback, please reach out to zakoutkhalil@gmail.com
+For questions or contributions, please reach out to me at zakoutkhalil@gmail.com. You can also connect with me on [LinkedIn](https://www.linkedin.com/in/khalil-zakout/).
 
